@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Pokedex - About</title>
+
+		
+
+		<link rel="modulepreload" href="/_app/start-3259fa50.js">
+		<link rel="modulepreload" href="/_app/chunks/vendor-b22f1795.js">
+		<link rel="modulepreload" href="/_app/pages/__layout.svelte-a75ac18f.js">
+		<link rel="modulepreload" href="/_app/pages/about.svelte-19cf58f4.js">
+		<link rel="stylesheet" href="/_app/assets/start-d5b4de3e.css">
+		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-af942f38.css">
+
+		<script type="module">
+			import { start } from "/_app/start-3259fa50.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":""},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/_app/pages/__layout.svelte-a75ac18f.js"),
+						import("/_app/pages/about.svelte-19cf58f4.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "\u002Fabout",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body style="background-image: url('body_bg.jpeg')">
+		<div id="svelte">
+
+
+<div class="p-8 max-w-6xl mx-auto" style="background-color: #FFFFFF;"><nav class="flex justify-center w-full"><a class="mx-4 text-lg" href="/">Home</a>
+    <a class="mx-4 text-lg" href="/about">About</a></nav>
+    
+<h1 class="text-4xl text-center my-8 uppercase">About</h1>
+<p>This project was made in <a href="https://kit.svelte.dev"><strong style="color: orange;">SvelteKit</strong></a> and <a href="https://pokeapi.co"><strong style="color: red;">PokeAPI</strong></a> in order to learn how to use the framework
+</p>
+<br>
+    Any questions or comments<br>
+    <strong><a href="mailto:ochoa.ismael@uabc.edu.mx">ochoa.ismael@uabc.edu.mx</a></strong>
+</div>
+
+
+
+			
+		</div>
+	</body>
+</html>
